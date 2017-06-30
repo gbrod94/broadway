@@ -1,1 +1,11 @@
-body {font-family: Helvetica; Arial; Sans-serif;}
+body {font-family: Helvetica; Arial; Sans-serif;
+      font-size: 14px;
+      text-align:center;
+      }
+
+.navbar {font-size: 18px;
+        color: white
+        background-image: url(./resources/images/the-flatiron-building.png);}
+ h1 {font-size: 70px;
+      font-weight: bold;
+      }
