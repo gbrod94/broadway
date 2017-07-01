@@ -1,13 +1,15 @@
-body {font-family: Helvetica; Arial; Sans-serif;
+body {font-family: "Helvetica"; Arial; Sans-serif;
       font-size: 14px;
       text-align:center;
       }
 
 .btn {text-decoration: underline;
-      color: white;}
+      color: white;
+      }
 
 .navbar {font-size: 18px;
         background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+        background-repeat: no-repeat;
         color: white;}
 
 #team {background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
@@ -15,9 +17,10 @@ body {font-family: Helvetica; Arial; Sans-serif;
             font-size:23px;
             font-weight:bold;}
 
-       h1 {font-size: 70px;
-      font-weight: bold;
-      color: white;}
+/* h1 is set to font-size: 60px, because at 70 px, the menu button "contact" fell out of background-image */
+h1 {font-size: 60px;
+    font-weight: bold;
+    color: white;}
 
  a {text-decoration: none;
     color: white;}
